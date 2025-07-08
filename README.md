@@ -3,10 +3,13 @@
 ## Problem Statement :
 The used car market is vast, and accurately pricing a vehicle is essential for both sellers and buyers. The goal is to build a regression model that can predict the selling price of a used car based on features like its brand, manufacturing year, fuel type, kilometers driven, and more.
 
- ### Objective :
+
+### Objective :
 To develop a machine learning model that accurately predicts the selling price of used cars using historical data. This involves data preprocessing, model selection, training, evaluation, and comparison of different regression algorithms.
 
+
 ### Steps Performed :
+
 #### 1. Data Collection & Loading :
 Imported the dataset (CSV format) containing car details and prices.
 
@@ -30,7 +33,7 @@ Trained and tested multiple regression models:
 
 ### Model Evaluation :
 Compared model performance using:
-- R² Score-
+- R² Score
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
@@ -45,11 +48,13 @@ Compared model performance using:
 ### Tools and Technologies Used :
 - Language: Python
 - Platform: Jupyter Notebook / Google Colab
+  
 #### Libraries:
 - pandas, numpy – data manipulation
 - matplotlib, seaborn – data visualization
 - sklearn – preprocessing, model building & evaluation
 - xgboost – advanced regression model
+
 
 ### Dataset Description :
 #### Features:
